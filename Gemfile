@@ -34,3 +34,6 @@ group :test, :development do
   gem 'rubocop-rspec'
   gem 'webrick'
 end
+
+# Add ruby-vips to handle image processing for jekyll-og-image
+gem 'ruby-vips', '~> 2.2'
